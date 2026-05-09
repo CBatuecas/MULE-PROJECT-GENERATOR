@@ -1,0 +1,140 @@
+# ================================
+# Node.js - .gitignore
+# ================================
+
+# Dependencias
+node_modules/
+jspm_packages/
+bower_components/
+
+# Archivos de lock (elige uno según tu gestor de paquetes)
+# package-lock.json  # descomenta si usas yarn o pnpm
+# yarn.lock          # descomenta si usas npm o pnpm
+# pnpm-lock.yaml     # descomenta si usas npm o yarn
+
+# ================================
+# Build & Distribución
+# ================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.turbo/
+
+# ================================
+# Variables de entorno
+# ================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ================================
+# Runtime & Caché
+# ================================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# Testing & Cobertura
+# ================================
+coverage/
+.nyc_output/
+*.lcov
+.jest-cache/
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+
+# ================================
+# IDEs & Editores
+# ================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-workspace
+
+# ================================
+# Sistema Operativo
+# ================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+
+# ================================
+# Varios
+# ================================
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+
+# Archivos de diagnóstico de npm
+*.ntvs*
+*.njsproj
+*.sln
+
+# Serverless
+.serverless/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Docker (opcional, descomenta si aplica)
+# .dockerignore
